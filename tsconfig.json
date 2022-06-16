@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",                                      /* Specify the base directory to resolve non-relative module names. */
+      "paths": {                                           /* Specify a set of entries that re-map imports to additional lookup locations. */
+        "@pages/*":["po/pages/*"],
+        "@components/*":["po/components/*"],
+        "@lib/*":["lib/*"],
+        "@data/*":["data/*"],
+      },
+      "esModuleInterop": true                                         
+    }
+  }
